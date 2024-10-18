@@ -14,7 +14,7 @@ public class Machine {
     }
 
     public String getBrand(){
-        return model;
+        return brand;
     }
 
     public String getModel(){
