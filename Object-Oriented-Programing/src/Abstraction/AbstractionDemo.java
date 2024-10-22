@@ -12,7 +12,7 @@ public class AbstractionDemo {
         //data hiding with interface
         Shape shape = new Circle();
         shape.draw();
-        
+
         shape = new Square();
         shape.draw();
 
