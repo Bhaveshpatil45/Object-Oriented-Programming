@@ -5,7 +5,7 @@ public class Vehicle {
     private String model;
 
 
-    public Vehicle(String brand, String model){
+    public Vehicle(String brand, String model, double cost, String fueltype, String color, int engineCC){
         this.brand = brand;
         this.model = model;
 
