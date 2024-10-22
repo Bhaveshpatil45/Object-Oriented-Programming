@@ -9,7 +9,7 @@ public class Truck extends Mould{
     private static Truck truck;
 
     public static Truck createTurck(int loadCapacity, String color, int door){
-        String truckDescription = createMould("truck");
+        String truckDescription = createmould("truck");
         truck = new Truck(loadCapacity, color, door, truckDescription);
         return truck;
     }

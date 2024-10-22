@@ -8,8 +8,8 @@ public class Car extends Mould {
     static private Car car;
 
     public static Car createCar(int sittingCapacity, String color,int door){
-        String carDescription = createMould("car");
-        car = new Car(siitingCapacity, color, door, carDescription);
+        String carDescription = createmould("car");
+        car = new Car(sittingCapacity, color, door, carDescription);
         return car;
     }
     private Car(int sittingCapacity, String color,int door, String description){
