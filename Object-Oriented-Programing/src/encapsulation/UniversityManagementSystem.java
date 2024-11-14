@@ -1,5 +1,5 @@
 package encapsulation;
-
+ 
 import encapsulation.model.Department;
 import encapsulation.model.Faculty;
 import encapsulation.model.Student;
